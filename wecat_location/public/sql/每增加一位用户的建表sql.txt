@@ -1,0 +1,1 @@
+CREATE TABLE `wechat`.`用户账号(非中文)` ( `mid` INT NOT NULL AUTO_INCREMENT , `uid` INT NOT NULL , `uname` VARCHAR(20) NOT NULL , `u_account number` VARCHAR(30) NOT NULL , `msg` VARCHAR(200) NOT NULL , `subtime` DATETIME NOT NULL , PRIMARY KEY (`mid`)) ENGINE = InnoDB;

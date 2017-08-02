@@ -1,0 +1,1124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="77b2edfe-90cd-42c2-8141-62e763efaed3" name="Default" comment="" />
+    <ignored path="wecat.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="wecat" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="talk.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/details/talk.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="9" column="56" lean-forward="true" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="talk.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/js/talk.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="492">
+              <caret line="475" column="7" lean-forward="true" selection-start-line="475" selection-start-column="7" selection-end-line="475" selection-end-column="7" />
+              <folding>
+                <element signature="e#125#171#0" expanded="false" />
+                <element signature="e#376#1754#0" expanded="false" />
+                <element signature="n#!!block;n#list_load#0" expanded="false" />
+                <element signature="n#!!block;n#getTimeFromDatabase#0" expanded="false" />
+                <element signature="n#!!block;n#compare#0" expanded="false" />
+                <element signature="n#!!block;n#cut#0" expanded="false" />
+                <element signature="n#!!block;n#scrollToBottom#0" expanded="false" />
+                <element signature="e#9321#9659#0" expanded="false" />
+                <element signature="e#9682#10600#0" expanded="false" />
+                <element signature="e#10632#11525#0" expanded="false" />
+                <element signature="e#11702#14446#0" expanded="false" />
+                <element signature="n#!!block;n#scrollToBottom#1" expanded="false" />
+                <element signature="e#15867#16040#0" expanded="false" />
+                <element signature="e#16145#16355#0" expanded="false" />
+                <marker date="1501687334292" expanded="true" signature="740:1587" ph="..." />
+                <marker date="1501687334292" expanded="true" signature="781:1321" ph="..." />
+                <marker date="1501687334292" expanded="true" signature="829:1222" ph="..." />
+                <marker date="1501687334292" expanded="true" signature="946:1045" ph="..." />
+                <marker date="1501687334292" expanded="true" signature="1092:1191" ph="..." />
+                <marker date="1501687334292" expanded="true" signature="1362:1564" ph="..." />
+                <marker date="1501687334292" expanded="true" signature="1413:1498" ph="..." />
+                <marker date="1501687334292" expanded="true" signature="4930:5123" ph="..." />
+                <marker date="1501687334292" expanded="true" signature="6126:6893" ph="..." />
+                <marker date="1501687334292" expanded="true" signature="6250:6364" ph="..." />
+                <marker date="1501687334292" expanded="true" signature="6489:6859" ph="..." />
+                <marker date="1501687334292" expanded="true" signature="6549:6748" ph="..." />
+                <marker date="1501687334292" expanded="true" signature="12880:13047" ph="..." />
+                <marker date="1501687334292" expanded="true" signature="13234:13405" ph="..." />
+                <marker date="1501687334292" expanded="true" signature="13590:13757" ph="..." />
+                <marker date="1501687334292" expanded="true" signature="13810:13981" ph="..." />
+                <marker date="1501687334292" expanded="true" signature="17545:17705" ph="..." />
+                <marker date="1501687334292" expanded="true" signature="17963:18123" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="talk.js" pinned="false" current-in-tab="false">
+        <entry file="file://I:/wecat/public/js/talk.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5434">
+              <caret line="497" column="32" lean-forward="true" selection-start-line="497" selection-start-column="8" selection-end-line="497" selection-end-column="32" />
+              <folding>
+                <element signature="e#376#1754#0" expanded="false" />
+                <element signature="n#!!block;n#list_load#0" expanded="false" />
+                <element signature="n#!!block;n#getTimeFromDatabase#0" expanded="false" />
+                <element signature="n#!!block;n#getSysTime#0" expanded="false" />
+                <element signature="n#!!block;n#compare#0" expanded="false" />
+                <element signature="n#!!block;n#cut#0" expanded="false" />
+                <element signature="n#!!block;n#scrollToBottom#0" expanded="false" />
+                <element signature="e#17526#17805#0" expanded="false" />
+                <marker date="1501684934000" expanded="true" signature="6290:7057" ph="..." />
+                <marker date="1501684934000" expanded="true" signature="6414:6528" ph="..." />
+                <marker date="1501684934000" expanded="true" signature="6653:7023" ph="..." />
+                <marker date="1501684934000" expanded="true" signature="6713:6912" ph="..." />
+                <marker date="1501684934000" expanded="true" signature="18705:18865" ph="..." />
+                <marker date="1501684934000" expanded="true" signature="19123:19283" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="talk.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/talk.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="153" column="14" lean-forward="false" selection-start-line="153" selection-start-column="14" selection-end-line="153" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="bootstrap" />
+        <option value="Less File" />
+        <option value="Html5" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sex</find>
+      <find>.mCSB_inside&gt;.mCSB_container</find>
+      <find>msg</find>
+      <find>459AE9</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/public/wecat/variables.less" />
+        <option value="$PROJECT_DIR$/public/wecat/wechat.less" />
+        <option value="$PROJECT_DIR$/public/wecat/bootstrap.less" />
+        <option value="I:/../html5/jd/public/js/shoppingcart.js" />
+        <option value="I:/../demo/点击长按后拖拽/demo.html" />
+        <option value="$PROJECT_DIR$/public/demo.html" />
+        <option value="$PROJECT_DIR$/public/css/jquery.mCustomScrollbar.min.css" />
+        <option value="$PROJECT_DIR$/public/demo2.html" />
+        <option value="$PROJECT_DIR$/public/details/header.html" />
+        <option value="$PROJECT_DIR$/public/details/footer.html" />
+        <option value="$PROJECT_DIR$/public/js/head+foot.js" />
+        <option value="$PROJECT_DIR$/demo3.html" />
+        <option value="$PROJECT_DIR$/public/demo3.html" />
+        <option value="I:/../html5/day07_all (1)/day07/day07/02_ws_client.html" />
+        <option value="$PROJECT_DIR$/public/details/server.js" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/public/css/head+foot.css" />
+        <option value="$PROJECT_DIR$/public/css/login.css" />
+        <option value="$PROJECT_DIR$/public/css/head_foot_v2.css" />
+        <option value="$PROJECT_DIR$/public/details/header2.html" />
+        <option value="$PROJECT_DIR$/public/details/footer2.html" />
+        <option value="$PROJECT_DIR$/public/js/head_foot_2.js" />
+        <option value="$PROJECT_DIR$/public/details/login.html" />
+        <option value="$PROJECT_DIR$/public/css/reg.css" />
+        <option value="$PROJECT_DIR$/public/details/reg.html" />
+        <option value="$PROJECT_DIR$/public/js/reg.js" />
+        <option value="$PROJECT_DIR$/ws_server.js" />
+        <option value="$PROJECT_DIR$/public/css/head_foot.css" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/css/index.css" />
+        <option value="$PROJECT_DIR$/public/details/404error.html" />
+        <option value="$PROJECT_DIR$/public/js/index.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="I:/wecat/public/js/talk.js" />
+        <option value="I:/wecat/public/css/talk.css" />
+        <option value="$PROJECT_DIR$/public/details/talk.html" />
+        <option value="$PROJECT_DIR$/public/css/talk.css" />
+        <option value="$PROJECT_DIR$/public/js/talk.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="227" />
+    <option name="y" value="71" />
+    <option name="width" value="1456" />
+    <option name="height" value="807" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="wecat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wecat_location" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wecat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wecat_location" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wecat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wecat_location" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wecat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wecat_location" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="JavaScriptLanguageLevel" value="ES6" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="recentsLimit" value="5" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\weixin\wecat_location\public\css" />
+      <recent name="C:\Users\Administrator\Desktop\weixin\wecat\public\js" />
+      <recent name="C:\Users\Administrator\Desktop\weixin\wecat\public\css" />
+      <recent name="C:\Users\Administrator\Desktop\weixin\wecat\public\img" />
+      <recent name="C:\Users\Administrator\Desktop\wecat\public\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\weixin\wecat" />
+      <recent name="C:\Users\Administrator\Desktop\weixin\wecat\public" />
+      <recent name="C:\Users\Administrator\Desktop\wecat\public\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.app.js">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JsTestDriver-test-runner" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
+      <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
+        <option name="envVars">
+          <list />
+        </option>
+        <option name="extraHosts">
+          <list />
+        </option>
+        <option name="links">
+          <list />
+        </option>
+        <option name="networkDisabled" value="false" />
+        <option name="networkMode" value="bridge" />
+        <option name="portBindings">
+          <list />
+        </option>
+        <option name="publishAllPorts" value="false" />
+        <option name="version" value="1" />
+        <option name="volumeBindings">
+          <list />
+        </option>
+      </EXTENSION>
+    </configuration>
+    <configuration name="server.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="server.js" working-dir="$PROJECT_DIR$">
+      <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
+        <option name="envVars">
+          <list />
+        </option>
+        <option name="extraHosts">
+          <list />
+        </option>
+        <option name="links">
+          <list />
+        </option>
+        <option name="networkDisabled" value="false" />
+        <option name="networkMode" value="bridge" />
+        <option name="portBindings">
+          <list />
+        </option>
+        <option name="publishAllPorts" value="false" />
+        <option name="version" value="1" />
+        <option name="volumeBindings">
+          <list />
+        </option>
+      </EXTENSION>
+    </configuration>
+    <configuration name="talk.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/wecat/public/details/talk.html" />
+    <configuration name="talk.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="talk.js" working-dir="$PROJECT_DIR$/public/js">
+      <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
+        <option name="envVars">
+          <list />
+        </option>
+        <option name="extraHosts">
+          <list />
+        </option>
+        <option name="links">
+          <list />
+        </option>
+        <option name="networkDisabled" value="false" />
+        <option name="networkMode" value="bridge" />
+        <option name="portBindings">
+          <list />
+        </option>
+        <option name="publishAllPorts" value="false" />
+        <option name="version" value="1" />
+        <option name="volumeBindings">
+          <list />
+        </option>
+      </EXTENSION>
+    </configuration>
+    <configuration name="ws_server.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="D:/Node.Js/node" path-to-js-file="ws_server.js" working-dir="$PROJECT_DIR$" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.talk.html" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.server.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.ws_server.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.talk.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.app.js" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.app.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.talk.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.ws_server.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.server.js" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.talk.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77b2edfe-90cd-42c2-8141-62e763efaed3" name="Default" comment="" />
+      <created>1501057405656</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1501057405656</updated>
+      <workItem from="1501078255947" duration="7070000" />
+      <workItem from="1501251904460" duration="4978000" />
+      <workItem from="1501335934884" duration="49000" />
+      <workItem from="1501339447754" duration="706000" />
+      <workItem from="1501406965577" duration="263000" />
+      <workItem from="1501408323619" duration="11474000" />
+      <workItem from="1501422498795" duration="1145000" />
+      <workItem from="1501424225518" duration="11484000" />
+      <workItem from="1501439120981" duration="5770000" />
+      <workItem from="1501509796214" duration="7631000" />
+      <workItem from="1501596330201" duration="138000" />
+      <workItem from="1501596509608" duration="5370000" />
+      <workItem from="1501683459947" duration="3891000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="59969000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1328125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23135965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294271" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.061744966" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1777151" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294271" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/js/talk.js</url>
+          <line>371</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/js/talk.js</url>
+          <line>385</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="8" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/css/talk.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11880">
+          <caret line="396" column="22" lean-forward="false" selection-start-line="396" selection-start-column="22" selection-end-line="396" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3570">
+          <caret line="119" column="11" lean-forward="false" selection-start-line="119" selection-start-column="11" selection-end-line="119" selection-end-column="11" />
+          <folding>
+            <element signature="e#229#349#0" expanded="false" />
+            <element signature="e#509#971#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/talk.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="134" column="13" lean-forward="false" selection-start-line="134" selection-start-column="13" selection-end-line="134" selection-end-column="13" />
+          <folding>
+            <element signature="e#125#171#0" expanded="false" />
+            <element signature="e#376#1754#0" expanded="false" />
+            <element signature="n#!!block;n#list_load#0" expanded="false" />
+            <element signature="n#!!block;n#getTimeFromDatabase#0" expanded="false" />
+            <element signature="n#!!block;n#compare#0" expanded="false" />
+            <element signature="n#!!block;n#cut#0" expanded="false" />
+            <element signature="n#!!block;n#scrollToBottom#0" expanded="false" />
+            <element signature="e#9321#9659#0" expanded="false" />
+            <element signature="e#9682#10600#0" expanded="false" />
+            <element signature="e#10632#11525#0" expanded="false" />
+            <element signature="e#11702#14446#0" expanded="false" />
+            <element signature="n#!!block;n#scrollToBottom#1" expanded="false" />
+            <element signature="e#15867#16040#0" expanded="false" />
+            <element signature="e#16145#16355#0" expanded="false" />
+            <marker date="1501687334292" expanded="true" signature="740:1587" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="781:1321" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="829:1222" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="946:1045" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="1092:1191" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="1362:1564" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="1413:1498" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="4930:5123" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="6126:6893" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="6250:6364" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="6489:6859" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="6549:6748" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="12880:13047" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="13234:13405" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="13590:13757" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="13810:13981" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="17545:17705" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="17963:18123" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#229#349#0" expanded="false" />
+            <element signature="e#509#971#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/details/talk.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="118" column="34" lean-forward="false" selection-start-line="118" selection-start-column="28" selection-end-line="118" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/talk.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#125#171#0" expanded="false" />
+            <element signature="e#376#1754#0" expanded="false" />
+            <element signature="n#!!block;n#list_load#0" expanded="false" />
+            <element signature="n#!!block;n#getTimeFromDatabase#0" expanded="false" />
+            <element signature="n#!!block;n#compare#0" expanded="false" />
+            <element signature="n#!!block;n#cut#0" expanded="false" />
+            <element signature="n#!!block;n#scrollToBottom#0" expanded="false" />
+            <element signature="e#9321#9659#0" expanded="false" />
+            <element signature="e#9682#10600#0" expanded="false" />
+            <element signature="e#10632#11525#0" expanded="false" />
+            <element signature="e#11702#14446#0" expanded="false" />
+            <element signature="n#!!block;n#scrollToBottom#1" expanded="false" />
+            <element signature="e#15867#16040#0" expanded="false" />
+            <element signature="e#16145#16355#0" expanded="false" />
+            <marker date="1501687334292" expanded="true" signature="740:1587" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="781:1321" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="829:1222" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="946:1045" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="1092:1191" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="1362:1564" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="1413:1498" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="4930:5123" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="6126:6893" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="6250:6364" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="6489:6859" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="6549:6748" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="12880:13047" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="13234:13405" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="13590:13757" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="13810:13981" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="17545:17705" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="17963:18123" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="170" column="16" lean-forward="false" selection-start-line="170" selection-start-column="16" selection-end-line="170" selection-end-column="16" />
+          <folding>
+            <element signature="e#229#349#0" expanded="false" />
+            <element signature="e#509#971#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/details/talk.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="118" column="34" lean-forward="false" selection-start-line="118" selection-start-column="28" selection-end-line="118" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/talk.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#125#171#0" expanded="false" />
+            <element signature="e#376#1754#0" expanded="false" />
+            <element signature="n#!!block;n#list_load#0" expanded="false" />
+            <element signature="n#!!block;n#getTimeFromDatabase#0" expanded="false" />
+            <element signature="n#!!block;n#compare#0" expanded="false" />
+            <element signature="n#!!block;n#cut#0" expanded="false" />
+            <element signature="n#!!block;n#scrollToBottom#0" expanded="false" />
+            <element signature="e#9321#9659#0" expanded="false" />
+            <element signature="e#9682#10600#0" expanded="false" />
+            <element signature="e#10632#11525#0" expanded="false" />
+            <element signature="e#11702#14446#0" expanded="false" />
+            <element signature="n#!!block;n#scrollToBottom#1" expanded="false" />
+            <element signature="e#15867#16040#0" expanded="false" />
+            <element signature="e#16145#16355#0" expanded="false" />
+            <marker date="1501687334292" expanded="true" signature="740:1587" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="781:1321" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="829:1222" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="946:1045" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="1092:1191" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="1362:1564" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="1413:1498" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="4930:5123" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="6126:6893" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="6250:6364" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="6489:6859" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="6549:6748" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="12880:13047" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="13234:13405" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="13590:13757" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="13810:13981" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="17545:17705" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="17963:18123" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding>
+            <element signature="e#229#349#0" expanded="false" />
+            <element signature="e#509#971#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/details/talk.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="119" column="30" lean-forward="false" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/talk.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#125#171#0" expanded="false" />
+            <element signature="e#376#1754#0" expanded="false" />
+            <element signature="n#!!block;n#list_load#0" expanded="false" />
+            <element signature="n#!!block;n#getTimeFromDatabase#0" expanded="false" />
+            <element signature="n#!!block;n#compare#0" expanded="false" />
+            <element signature="n#!!block;n#cut#0" expanded="false" />
+            <element signature="n#!!block;n#scrollToBottom#0" expanded="false" />
+            <element signature="e#9321#9659#0" expanded="false" />
+            <element signature="e#9682#10600#0" expanded="false" />
+            <element signature="e#10632#11525#0" expanded="false" />
+            <element signature="e#11702#14446#0" expanded="false" />
+            <element signature="n#!!block;n#scrollToBottom#1" expanded="false" />
+            <element signature="e#15867#16040#0" expanded="false" />
+            <element signature="e#16145#16355#0" expanded="false" />
+            <marker date="1501687334292" expanded="true" signature="740:1587" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="781:1321" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="829:1222" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="946:1045" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="1092:1191" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="1362:1564" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="1413:1498" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="4930:5123" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="6126:6893" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="6250:6364" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="6489:6859" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="6549:6748" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="12880:13047" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="13234:13405" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="13590:13757" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="13810:13981" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="17545:17705" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="17963:18123" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#229#349#0" expanded="false" />
+            <element signature="e#509#971#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/talk.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#125#171#0" expanded="false" />
+            <element signature="e#376#1754#0" expanded="false" />
+            <element signature="n#!!block;n#list_load#0" expanded="false" />
+            <element signature="n#!!block;n#getTimeFromDatabase#0" expanded="false" />
+            <element signature="n#!!block;n#compare#0" expanded="false" />
+            <element signature="n#!!block;n#cut#0" expanded="false" />
+            <element signature="n#!!block;n#scrollToBottom#0" expanded="false" />
+            <element signature="e#9321#9659#0" expanded="false" />
+            <element signature="e#9682#10600#0" expanded="false" />
+            <element signature="e#10632#11525#0" expanded="false" />
+            <element signature="e#11702#14446#0" expanded="false" />
+            <element signature="n#!!block;n#scrollToBottom#1" expanded="false" />
+            <element signature="e#15867#16040#0" expanded="false" />
+            <element signature="e#16145#16355#0" expanded="false" />
+            <marker date="1501687334292" expanded="true" signature="740:1587" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="781:1321" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="829:1222" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="946:1045" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="1092:1191" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="1362:1564" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="1413:1498" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="4930:5123" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="6126:6893" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="6250:6364" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="6489:6859" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="6549:6748" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="12880:13047" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="13234:13405" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="13590:13757" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="13810:13981" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="17545:17705" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="17963:18123" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/talk.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="175" column="17" lean-forward="false" selection-start-line="175" selection-start-column="17" selection-end-line="175" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/details/talk.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="144" column="25" lean-forward="false" selection-start-line="144" selection-start-column="25" selection-end-line="144" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/talk.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="182" column="19" lean-forward="false" selection-start-line="182" selection-start-column="19" selection-end-line="182" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/talk.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#125#171#0" expanded="false" />
+            <element signature="e#376#1754#0" expanded="false" />
+            <element signature="n#!!block;n#list_load#0" expanded="false" />
+            <element signature="n#!!block;n#getTimeFromDatabase#0" expanded="false" />
+            <element signature="n#!!block;n#compare#0" expanded="false" />
+            <element signature="n#!!block;n#cut#0" expanded="false" />
+            <element signature="n#!!block;n#scrollToBottom#0" expanded="false" />
+            <element signature="e#9321#9659#0" expanded="false" />
+            <element signature="e#9682#10600#0" expanded="false" />
+            <element signature="e#10632#11525#0" expanded="false" />
+            <element signature="e#11702#14446#0" expanded="false" />
+            <element signature="n#!!block;n#scrollToBottom#1" expanded="false" />
+            <element signature="e#15867#16040#0" expanded="false" />
+            <element signature="e#16145#16355#0" expanded="false" />
+            <marker date="1501687334292" expanded="true" signature="740:1587" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="781:1321" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="829:1222" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="946:1045" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="1092:1191" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="1362:1564" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="1413:1498" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="4930:5123" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="6126:6893" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="6250:6364" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="6489:6859" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="6549:6748" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="12880:13047" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="13234:13405" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="13590:13757" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="13810:13981" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="17545:17705" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="17963:18123" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="203" column="32" lean-forward="false" selection-start-line="203" selection-start-column="32" selection-end-line="203" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/details/talk.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="39" column="25" lean-forward="false" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/talk.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="160" column="21" lean-forward="false" selection-start-line="160" selection-start-column="21" selection-end-line="160" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/html5shiv.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/bootlint.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/font-awesome/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/jquery-2.1.4.min.js" />
+    <entry file="file://I:/../html5/jd/public/js/shoppingcart.js" />
+    <entry file="file://I:/../html5/jd/app.js" />
+    <entry file="file://I:/../demo/点击长按后拖拽/demo.html" />
+    <entry file="file://I:/../html5/day07_all (1)/day07/day07/01_ws_server.js" />
+    <entry file="file://I:/../html5/day07_all (1)/day07/day07/02_ws_client.html" />
+    <entry file="file://$PROJECT_DIR$/public/details/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/talk_bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/details/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/head_foot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="91" column="1" lean-forward="false" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/jquery.mCustomScrollbar.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="1460" column="16" lean-forward="false" selection-start-line="1460" selection-start-column="11" selection-end-line="1460" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="129" column="17" lean-forward="false" selection-start-line="129" selection-start-column="17" selection-end-line="129" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="114" column="58" lean-forward="false" selection-start-line="114" selection-start-column="58" selection-end-line="114" selection-end-column="58" />
+          <folding>
+            <element signature="e#229#349#0" expanded="false" />
+            <element signature="e#509#971#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://I:/wecat/public/css/talk.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4410">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/details/talk.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="56" lean-forward="true" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/talk.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="153" column="14" lean-forward="false" selection-start-line="153" selection-start-column="14" selection-end-line="153" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://I:/wecat/public/js/talk.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5434">
+          <caret line="497" column="32" lean-forward="true" selection-start-line="497" selection-start-column="8" selection-end-line="497" selection-end-column="32" />
+          <folding>
+            <element signature="e#376#1754#0" expanded="false" />
+            <element signature="n#!!block;n#list_load#0" expanded="false" />
+            <element signature="n#!!block;n#getTimeFromDatabase#0" expanded="false" />
+            <element signature="n#!!block;n#getSysTime#0" expanded="false" />
+            <element signature="n#!!block;n#compare#0" expanded="false" />
+            <element signature="n#!!block;n#cut#0" expanded="false" />
+            <element signature="n#!!block;n#scrollToBottom#0" expanded="false" />
+            <element signature="e#17526#17805#0" expanded="false" />
+            <marker date="1501684934000" expanded="true" signature="6290:7057" ph="..." />
+            <marker date="1501684934000" expanded="true" signature="6414:6528" ph="..." />
+            <marker date="1501684934000" expanded="true" signature="6653:7023" ph="..." />
+            <marker date="1501684934000" expanded="true" signature="6713:6912" ph="..." />
+            <marker date="1501684934000" expanded="true" signature="18705:18865" ph="..." />
+            <marker date="1501684934000" expanded="true" signature="19123:19283" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/talk.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="475" column="7" lean-forward="true" selection-start-line="475" selection-start-column="7" selection-end-line="475" selection-end-column="7" />
+          <folding>
+            <element signature="e#125#171#0" expanded="false" />
+            <element signature="e#376#1754#0" expanded="false" />
+            <element signature="n#!!block;n#list_load#0" expanded="false" />
+            <element signature="n#!!block;n#getTimeFromDatabase#0" expanded="false" />
+            <element signature="n#!!block;n#compare#0" expanded="false" />
+            <element signature="n#!!block;n#cut#0" expanded="false" />
+            <element signature="n#!!block;n#scrollToBottom#0" expanded="false" />
+            <element signature="e#9321#9659#0" expanded="false" />
+            <element signature="e#9682#10600#0" expanded="false" />
+            <element signature="e#10632#11525#0" expanded="false" />
+            <element signature="e#11702#14446#0" expanded="false" />
+            <element signature="n#!!block;n#scrollToBottom#1" expanded="false" />
+            <element signature="e#15867#16040#0" expanded="false" />
+            <element signature="e#16145#16355#0" expanded="false" />
+            <marker date="1501687334292" expanded="true" signature="740:1587" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="781:1321" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="829:1222" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="946:1045" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="1092:1191" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="1362:1564" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="1413:1498" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="4930:5123" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="6126:6893" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="6250:6364" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="6489:6859" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="6549:6748" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="12880:13047" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="13234:13405" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="13590:13757" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="13810:13981" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="17545:17705" ph="..." />
+            <marker date="1501687334292" expanded="true" signature="17963:18123" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
