@@ -1,0 +1,118 @@
+/*主体样式*/
+#main{
+    background:#E7E8EB;
+}
+#main::before{
+    content: "";
+    display: table;
+}
+.form_area{
+    margin-top:5%;
+    padding-bottom:3%;
+}
+.head{
+    border-bottom:2px solid #fff;
+}
+.form_area h2{
+    background: #44B549;
+    width:20%;
+    color:#fff;
+    font-weight: normal;
+    margin:0;
+    box-sizing: border-box;
+    text-align: center;
+    padding:1%;
+    border-bottom: 2px solid transparent;
+    position: relative;
+    bottom:-2px;
+}
+.f_main{
+    background: #fff;
+    width: 100%;
+    margin-top:10px;
+    height:500px;
+    display: flex;
+}
+.f_areaL{
+    width:60%;
+    box-sizing: border-box;
+    border-right:1px solid #ccc;
+    position: relative;
+}
+.f_areaL>li{
+    margin:20px 0;
+}
+.f_areaL>li>span.title{
+    display: inline-block;
+    width:15%;
+    margin-right:20px;
+}
+.f_areaL>li>div.info{
+    margin-left:19%;
+    color:#E15F63;
+    display: none;
+}
+span.btm{
+    color:#8D8D9C;
+    display: block;
+    margin-left:19%;
+    font-size: .9em;
+}
+.f_areaL>li>input{
+    width:45%;
+}
+.f_areaL>li.vali>input{
+    width:20%;
+}
+.f_areaL>li.btn_area{
+    position: absolute;
+    bottom: 0;
+    border-top:1px solid #ccc;
+    width: 60%;
+    text-align: center;
+}
+.f_areaL>li.btn_area>input{
+    width:20%;
+    margin:3% 0;
+    border:none;
+    border-radius: 5px;
+    background: #44B549;
+    color: #fff;
+    height:30px;
+}
+.f_areaR{
+    width:40%;
+    padding-top:1%;
+    padding-left:10%;
+    box-sizing: border-box;
+}
+.f_areaR>a{
+    color:#0066CC;
+}
+.f_areaR>a:hover{
+    text-decoration: underline;
+}
+/*固定框*/
+#fixed{
+    position: fixed;
+    text-align: center;
+    right: 8%;
+    top:30%;
+    background: #fff;
+    width:30px;
+    border:1px solid #ccc;
+    box-sizing: border-box;
+}
+#fixed div.contanier{
+    position: absolute;
+    left:-537%;
+    width:150px;
+    top:0;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    display: none;
+}
+#fixed div.contanier img{
+    width:50%;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+    <link rel="stylesheet" href="../css/head_foot_v2.css">
+    <link rel="stylesheet" href="../css/reg.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+</head>
+<body>
+<!--固定框-->
+<div id="fixed">
+    <span>在线问答</span>
+    <div class="contanier">
+        <img src="../img/2weima_2.jpg" alt="2维码">
+        <p>扫码提问</p>
+    </div>
+</div>
+<header id="head"></header>
+<section id="main">
+    <div class="contanier">
+        <div class="form_area">
+            <div class="head">
+                <h2>基本信息</h2>
+            </div>
+            <div class="f_main">
+                <ul class="f_areaL">
+                   <li>
+                       <span class="title">用户名</span>
+                       <input id="uname" type="text"placeholder="最长20个字符">
+                       <div class="info">请输入正确的用户名</div>
+                   </li>
+                    <li>
+                        <span class="title">密码</span>
+                        <input id="upwd" type="password">
+                        <div class="info">请填写密码</div>
+                        <span class="btm">字母、数字或者英文符号，最短8位，区分大小写</span>
+                    </li>
+                    <li>
+                        <span class="title">再次输入密码</span>
+                        <input id="r_upwd" type="password">
+                        <div class="info">请再次输入密码</div>
+                        <span class="btm">请再次输入密码</span>
+                    </li>
+                    <li class="vali">
+                        <span class="title">验证码</span>
+                        <input id="vali_code" type="text">
+                        <div class="info">验证码错误，请重新输入</div>
+                    </li>
+                    <li class="btn_area">
+                        <input type="button" value="注册" disabled="disabled">
+                    </li>
+                </ul>
+                <div class="f_areaR">
+                    <span>已有微信帐号？</span><a href="#">立即登录</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer id="foot"></footer>
+
+<script src="../js/jquery-2.1.4.min.js"></script>
+<script src="../js/head_foot_2.js"></script>
+<script src="../js/reg.js"></script>
+</body>
+</html>

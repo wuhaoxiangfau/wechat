@@ -1,0 +1,85 @@
+/*主体样式*/
+#main{
+    background: url(../img/bg_login_banner.jpg) no-repeat;
+    background-size: cover;
+}
+#main>div.contanier{
+    position: relative;
+    height:600px;
+}
+.login_area{
+    position: absolute;
+    right: 5%;
+    top:8%;
+    background: #FFFFFF;
+    height:300px;
+    width:30%;
+    border-radius: 5px;
+}
+.warp{
+    width: 80%;
+    margin: 0 auto;
+}
+.login_area>h2{
+    margin:5% auto;
+}
+.info{
+    display: none;
+    color: #E15F63;
+}
+.login_area input{
+    display: block;
+    border:none;
+    border-radius: 5px;
+}
+#uname,#upwd{
+    margin:3% 0;
+    border:1px solid #E7E7EB;
+    height:30px;
+    width:100%;
+}
+.login_area input[type="checkbox"]{
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    background: #fff;
+    transform: scale(1.5);
+}
+.login_area span{
+    margin-left:3%;
+}
+.login_area a{
+    color:#0066CC;
+    float: right;
+}
+.login_area a:hover{
+    text-decoration: underline;
+}
+#log_btn{
+    background: #2BAD13;
+    color:#fff;
+    width:40%;
+    height:40px;
+    line-height: 40px;
+    font-size: 1.2em;
+    margin:5% 0;
+}
+.twoweima_area{
+    border-radius: 5px;
+    position: absolute;
+    right: -6%;
+    top:8%;
+    width:10%;
+    height:150px;
+    background: #fff;
+}
+#twoweima_pic{
+    display: block;
+    width:80%;
+    margin:10% auto;
+
+}
+div.txt_area{
+    text-align: center;
+    font-size:.8em;
+}
