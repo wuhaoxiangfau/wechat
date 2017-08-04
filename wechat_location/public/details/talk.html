@@ -31,6 +31,19 @@
     </ul>
 </div>
 
+<!--添加好友的模态框-->
+<div id="model">
+        <div id="friend_info">
+            <img src="../img/urs_pic.png" alt=""/>
+            <h2>name</h2>
+            <h3>微信号: <span>account</span></h3>
+            <h3>sex</h3>
+            <h4>地区: <span>location</span></h4>
+            <button type="button" class="right">加为好友</button>
+            <div id="model_close">x</div>
+        </div>
+</div>
+
 <header id="header"></header>
 
 <section id="main">
@@ -77,15 +90,12 @@
                 <button type="button">
                     <i class="fa fa-plus"></i>
                 </button>
+                <div class="search_info"></div>
             </div>
             <div class="details mCustomScrollbar"  data-mcs-theme="dark">
                 <ul class="list" oncontextmenu = "customContextMenu(event)">
 
                 </ul>
-                <!--自制滚动条(还有bug)-->
-                <!--<div id="wrap_slide">-->
-                <!--<div id="wrap_box"></div>-->
-                <!--</div>-->
             </div>
         </div>
         <div class="talk">

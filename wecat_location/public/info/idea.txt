@@ -1,5 +1,0 @@
-库名：wechat
-
-表1：user   包含（uid uname u_account number upwd upic)  ----其他再添加
-表2：u_account number  包含(mid uid fid fname faccount msg fmsg  subtime) ---其他再添加
-

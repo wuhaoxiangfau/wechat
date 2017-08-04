@@ -6,7 +6,7 @@ const qs=require("querystring");
 const express=require("express");
 const ws=require("ws");
 
-var Server = new ws.Server({port:9000});
+var Server = new ws.Server({port:9001});
 
 
 var pool=mysql.createPool({
@@ -20,7 +20,7 @@ var pool=mysql.createPool({
 
 var app = express();
 var server=http.createServer(app);
-server.listen(8082);
+server.listen(8081);
 
 app.use(express.static("public"));
 
@@ -86,7 +86,7 @@ app.get("/user_info",(req,res)=>{
             conn.release();
         });
     });
-});//用户信息
+});
 
 
 
@@ -107,22 +107,30 @@ app.get("/friend_list",(req,res)=>{
     });
 });
 
-//功能点6，获取与选中好友的聊天记录界面
-app.get("/screen_show",(req,res)=>{
-   var fid=req.query.fid;
-   var account=req.query.account;
-     pool.getConnection((err,conn)=>{
-         //复杂sql 先获取按时间降序排序的子表  再将该表以mid方式升序输出，但每次都只能查询10条
-        var sql="SELECT* FROM (SELECT*FROM "+account+" WHERE fid=? ORDER BY subtime desc LIMIT 10) AS SON ORDER BY mid";
-        conn.query(sql,[fid],(err,result)=>{
-            if(err) throw err;
-            if(result.length>0){
-                res.json(result);
-            }
-            conn.release();
+//功能点6，搜索好友
+app.post('/search_friend',(req,res)=>{
+    req.on('data',(data)=>{
+        var str=data.toString();
+        var obj=qs.parse(str);
+
+        var fname=obj.fname;
+        var account=obj.account;
+        pool.getConnection((err,conn)=>{
+           var sql="SELECT  fname FROM "+account;
+            sql+=" WHERE fname LIKE '%"+fname+"%' GROUP BY fname";
+            conn.query(sql,(err,result)=>{
+               if(err) throw err;
+                if(result.length>0){
+                        res.json(result);
+                }else{
+                    res.json({msg:"未找到该好友"});
+                }
+            });
         });
-     });
+    });
 });
+
+
 //功能点7，发送我与当前朋友的聊天内容
 app.post("/txt.send",(req,res)=>{
    req.on("data",(data)=>{
@@ -171,7 +179,7 @@ app.get("/do",(req,res)=>{
     var account=req.query.account;
     var new_length=0;//存放在用户离线期间其他人给用户发送的信息数
     pool.getConnection((err,conn)=>{
-        var sql='SELECT *FROM '+account;
+        var sql='SELECT *FROM '+account;//将该用户所有的聊天记录传给客户端
         conn.query(sql,(err,result)=>{
             if(err) throw err;
             res.json(result);
@@ -193,6 +201,7 @@ app.get("/do",(req,res)=>{
                     var sql="SELECT *FROM "+account;
                     conn.query(sql,(err,result)=>{
                         if(err) throw err;
+                        new_length=result.length;
                         if(new_length>old_length){
                             for(var i=old_length;i<new_length;i++){
                                 var str=JSON.stringify(result[i]);
@@ -208,9 +217,7 @@ app.get("/do",(req,res)=>{
             },500);
             socket.on("close",()=>{//用户下线了 将下线时用户的聊天记录数更新
                 console.log(account+"下线了");
-                console.log(1);
                 clearInterval(mysql_database);//不再继续向客户端发送信息
-                console.log(2);
                 pool.getConnection((err,conn)=>{
                     var sql="UPDATE user SET msgNumber=? WHERE account=?";
                     conn.query(sql,[new_length,account],(err,result)=>{
@@ -222,6 +229,32 @@ app.get("/do",(req,res)=>{
     });
 
 });
+
+//功能点9，未添加好友搜索
+
+app.post('/friend_search',(req,res)=>{
+   req.on('data',(data)=>{
+       var str=data.toString();
+       var obj=qs.parse(str);
+       var name=obj.uname;
+       pool.getConnection((err,conn)=>{
+          var sql='SELECT uname, account, upic FROM user WHERE uname=?';
+           conn.query(sql,[name],(err,result)=>{
+               if(err) throw err;
+               if(result.length>0){
+                   res.json(result);
+               }else{
+                   res.json({msg:"未找到该用户，请检查您输入的用户名"});
+           }
+
+           })
+       });
+   })
+});
+
+//功能点10、添加该用户为自己的好友
+
+
 
 
 

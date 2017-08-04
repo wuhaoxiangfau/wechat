@@ -58,7 +58,6 @@ $(document).ready(()=>{
            success:function(data){
                if(data.length>0){
                    var html="";
-                   console.log(data)
                    for(var i=0;i<data.length;i++){
                        var o=data[i];
                        var time=compare(getSysTime(new Date()),getTimeFromDatabase(o.subtime,8));
@@ -105,15 +104,18 @@ $(document).ready(()=>{
                    }
                    // 连接服务器---永久连接
                    socket = new WebSocket
-                   ("ws://127.0.0.1:9000");
+                   ("ws://127.0.0.1:9001");
                    socket.onmessage=function(e){//开始接受服务器传来的数据
                        var obj=eval('(' + e.data + ')');//接收到的字符串数据转换成json
-                       if(obj.code===undefined){//有更新的状态 准备更新页面
+                       if(obj.code===undefined){//有更新的消息 准备更新页面
                            talkArr.push(obj);//将新接受的消息也压入缓存区
                            var lis=$(".list>li");
                            for(var i=0;i<lis.length;i++){
                                var li_num=parseInt(lis[i].getAttribute("id"));
                                if(obj.fid==li_num){//将该朋友在聊天列表内的文字内容更新
+                                   $(".list>li:eq("+i+")").
+                                       find(".last_time").
+                                       html(getTimeFromDatabase(obj.subtime,8)[1].slice(0,5));//时间框更新
                                    if(obj.msg=="")
                                         $(".list>li:eq("+i+")").find("p.talk_content").html(cut(obj.fmsg));
                                    else
@@ -346,7 +348,102 @@ var fpic="";
 var isDown=false;//初始化一个状态属性，文字输入部分是否未完全显示,初始状态为false
 //主界面的事件效果
 $(function(){
-    $(".details").on("click",'ul>li',(e)=>{//点击li的事件 ajax事件，更新聊天窗口内容
+    /*1、顶部搜索栏已添加好友搜索功能和添加新好友功能*/
+    $('.search>input').keyup(()=>{//
+       var str= $('.search>input').val();
+        console.log("输入框的内容是:"+str);
+        $.ajax({
+                    type:'POST',
+                    url:'/search_friend',
+                    data:{fname:str,account:account},
+                    success:function(data){
+                        var html="";
+                        $('.search_info').show().html("");
+                        if(data.length>0){
+                            for(var i=0;i<data.length;i++){
+                                html+=`
+                                       <h4>${data[i].fname}</h4>
+                                `;
+                            }
+                        }
+                        else{
+                                html+= `
+                                        <h4>${data.msg}</h4>
+                                `;
+                        }
+                        $('.search_info').html(html);
+                    }
+        });
+    });
+    $('.search>input').blur(()=>{//搜索框失去焦点.5s后，搜索提示框消失
+        setTimeout(()=>{
+            $('.search_info').hide();
+        },500);
+
+    });
+    $('.search_info').on("mouseover","h4",(e)=>{
+        var $tar=$(e.target);
+        if($tar.is("h4")){
+            $tar.css("color","#fff").css("background","blue");
+        }
+    });
+    $('.search_info').on("mouseout","h4",(e)=>{
+        var $tar=$(e.target);
+        if($tar.is("h4")){
+            $tar.css("color","#222").css("background","white");
+        }
+    });
+    $('.search_info').on("click","h4",(e)=>{
+        var $tar=$(e.target);
+        if($tar.is("h4")){
+            var name=$tar.html();
+            if(name=="未找到该好友"){
+
+            }else{
+                $(".list").
+                    find(".f_name:contains("+name+")").
+                    parents("li").addClass("active").
+                    siblings("li").removeClass("active");
+            }
+        }
+    });
+    $(".search>button").click(()=>{//查找新朋友
+       var friend_name= $('.search>input').val();
+        console.log("输入框的内容是:"+friend_name);
+        $.ajax({
+            type:"POST",
+            url:"/friend_search",
+            data:{uname:friend_name},
+            success:function(data){
+                if(data.msg==undefined){
+                    $("#model").show();
+                    $("#friend_info").html(
+                        `
+                            <img src="../${data[0].upic}" alt=""/>
+                            <h2>${data[0].uname}</h2>
+                            <h3>微信号: <span>${data[0].account}</span></h3>
+                            <h3>sex</h3>
+                            <h4>地区: <span>location</span></h4>
+                            <button type="button" class="right">加为好友</button>
+                            <div id="model_close">x</div>
+                        `
+                    );
+                }else{
+                    $('.search_info').html("");
+                    $('.search_info').show().
+                        html(`<h4>${data.msg}</h4>`);
+                }
+            }
+        })
+    });
+    $("#model").on('click','#model_close',()=>{//未添加好友信息隐藏
+       $("#model").hide();
+    });
+
+
+
+    /**2、点击li的事件 ajax事件，更新聊天窗口内容**/
+    $(".details").on("click",'ul>li',(e)=>{
         var $tar=$(e.target);
         $tar.parents("li").addClass("active");
         $tar.parents("li").siblings().removeClass("active");
@@ -361,69 +458,61 @@ $(function(){
             $(".t_title").show();
         }
 
-        $.ajax({//获取聊天窗口的历史记录
-            type:"GET",
-            url:"/screen_show",
-            data:{fid:fid,account:account},
-            success:function(data){
-                if(data.length>0){
-                    var html="";
-                    for(var i=0;i<data.length;i++){//给聊天列表加载内容
-                        var o=data[i];
-                        fname=o.fname;
-                        faccount=o.faccount;
-                        if(o.fmsg==""&&o.msg!=""){//如果我没有回复
-                            html+=`
+
+        $(".c_content").html("");//现将当前聊天窗口的内容清空
+        var html="";//从聊天记录缓存库中加载与当前选择好友的聊天记录
+        for(var i=0;i<talkArr.length;i++){
+            fname=talkArr[i].fname;
+            faccount=talkArr[i].faccount;
+           if(fid==talkArr[i].fid){//只加载当前选择好友的聊天记录
+               if(talkArr[i].fmsg==""&&talkArr[i].msg!=""){//如果我没有回复
+                   html+=`
                                 <div class="row lf">
                                     <img src='${fpic}' alt=""/>
-                                    <p class="msg">${o.msg}</p>
+                                    <p class="msg">${talkArr[i].msg}</p>
                                 </div>
                             `;
-                        }else if(o.msg==""&&o.fmsg!=""){//如果对方没有回复
-                            html+=`
+               }else if(talkArr[i].msg==""&&talkArr[i].fmsg!=""){//如果对方没有回复
+                   html+=`
                                 <div class="row rt">
                                     <img src='../${upic}' alt=""/>
-                                    <p class="msg">${o.fmsg}</p>
+                                    <p class="msg">${talkArr[i].fmsg}</p>
                                 </div>
                             `;
-                        }else if(o.fmsg!=""&&o.msg!=""){//双方都回复了
-                            html+=`
+               }else if(talkArr[i].fmsg!=""&&talkArr[i].msg!=""){//双方都回复了
+                   html+=`
                                 <div class="row lf">
                                     <img src='${fpic}' alt=""/>
-                                    <p class="msg">${o.msg}</p>
+                                    <p class="msg">${talkArr[i].msg}</p>
                                 </div>
                                 <div class="row rt">
                                     <img src='../${upic}' alt=""/>
-                                    <p class="msg">${o.fmsg}</p>
+                                    <p class="msg">${talkArr[i].fmsg}</p>
                                 </div>
                      `;
-                        }else if(o.fmsg==""&&o.msg==""){//为加好友的信息保存，不显示  有空格都不行
-                            html+="";
-                        }
-                    }
-                    $("#t_name").html(fname);
-                    $(".c_content").html(html);
-                    scrollToBottom();
+                }else if(talkArr[i].fmsg==""&&talkArr[i].msg==""){//为加好友的信息保存，不显示  有空格都不行
+                   html+="";
                 }
-            },
-            error:function(){
-                alert("服务器崩溃了，请联系服务器管理员");
+
+               if(i==(talkArr.length)-1){
+                   html+=`
+                    <div class="sub_time">${getTimeFromDatabase(talkArr[i].subtime,8)[0].slice(-5)}</div>
+                    <hr/>
+                `
+               }
             }
-        });
+
+        }
+        $("#t_name").html(fname);
+        $(".c_content").html(html);
+        scrollToBottom();
+
     });
 });
-
-function scrollToBottom(){//聊天内容下拉函数
-    var containerHeight=parseFloat($("#mCSB_2").css("height"));
-    var contentHeight=parseFloat($("#mCSB_2_container").css("height"));
-    if(contentHeight>containerHeight){//如果聊天内容的高度大于展示框，则将聊天内容自动下拉
-        $("#mCSB_2_container")
-            .css("top",-(contentHeight-containerHeight)+"px");
-    }
-}
-    var content;
+    var content;//聊天内容输入框的内容存为全局变量
 //聊天界面事件
 $(function(){
+    /**1、小功能按钮**/
     $(".input_top").on("mouseover","i",(e)=>{//鼠标移入图标按钮，提示出现
         var $tar=$(e.target);
             if($tar.is("i")){
@@ -436,7 +525,7 @@ $(function(){
             $tar.next().hide();
         }
     });
-    $("#more").click(()=>{
+    $("#more").click(()=>{//点击“+”小按钮，文本输入框出现
         if(!isDown){
             $("#frist_input").animate({opacity:0},1000,()=>{$("#frist_input").hide()});
             $(".t_main").css("height","75%");
@@ -445,7 +534,7 @@ $(function(){
             isDown=true;
         }
     });
-    $(".t_main").click(()=>{
+    $(".t_main").click(()=>{//点击聊天主界面，文本输入框消失
         if(isDown){
             $(".t_main").css("height","93.75%");
             $(".t_input").removeClass("slideInUp").addClass("slideInDown");
@@ -476,7 +565,7 @@ $(function(){
         }
     });
 
-
+    /**2、文本输入框事件**/
     $(".input_area").keyup((e)=>{//使用输入法时，按回车键无法取得键值
         var reg=/^ *$/i;//防止输入纯空格或者不输入内容
         content=$(".input_area").val();
@@ -535,6 +624,7 @@ $(function(){
 });
 //整体界面事件
 $(function(){
+    /**1、整体页面的变大变小**/
     var click=false;
    $("#change_lg").click(()=>{
        if(!click){
@@ -549,6 +639,8 @@ $(function(){
        }
    });
 });
+
+
 function customContextMenu(e){//阻止鼠标右键系统默认事件
     e.preventDefault ? e.preventDefault():(e.returnValue = false);
     var cstCM = document.getElementById('cst_pic');

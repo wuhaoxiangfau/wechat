@@ -1,5 +1,0 @@
- var sql="SELECT u.uid,u.uname,u.upic,u.account,o.fid,o.fname,o.msg,o.subtime FROM";
-         sql+=" user AS u,"+account+" AS o WHERE u.uid = o.uid";
-
-
-SELECT o.fid,o.fname,o.msg,o.subtime,u.upic FROM wuhaoxiangfau o,user u WHERE o.fid=u.uid
